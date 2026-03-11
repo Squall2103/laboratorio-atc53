@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso ATC-053 Telecomunicaciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Curso ATC-053 Telecomunicaciones</h1>
+        <p class="subtitle">Laboratorio de lectura de mensajes AFTN - Sistema de control de tráfico aéreo</p>
+    </header>
+
+    <section class="instructions">
+        <h2>Instrucciones para el laboratorio</h2>
+        <p>Este laboratorio permite practicar la lectura de mensajes AFTN. Siga estos pasos:</p>
+        <div class="steps">
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>Seleccione una categoría</strong> de mensaje AFTN (ARR, FPL, CHG, CNL, DEP, DLA)
+            </div>
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>Elija un número</strong> de la categoría seleccionada
+            </div>
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>Lea el mensaje</strong> en voz alta ante la clase
+            </div>
+            <div class="step">
+                <span class="step-number">4</span>
+                <strong>Cierre el mensaje</strong> haciendo clic en la "X" o seleccionando otro
+            </div>
+        </div>
+    </section>
+
+    <section class="category-selector">
+        <h2>Seleccione una categoría de mensaje</h2>
+        <div class="category-buttons">
+            <button class="category-btn" data-category="arr">ARR (Arrivals) - 18</button>
+            <button class="category-btn" data-category="fpl">FPL (Flight Plan) - 20</button>
+            <button class="category-btn" data-category="chg">CHG (Change) - 20</button>
+            <button class="category-btn" data-category="cnl">CNL (Cancel) - 19</button>
+            <button class="category-btn" data-category="dep">DEP (Departure) - 25</button>
+            <button class="category-btn" data-category="dla">DLA (Delay) - 22</button>
+        </div>
+    </section>
+
+    <!-- Category Containers (hidden by default) -->
+    <div id="arr-container" class="category-container">
+        <div class="category-header">
+            <h3 class="category-title">ARR (Arrivals) - Llegadas</h3>
+            <span class="category-count">18 mensajes</span>
+        </div>
+        <div class="items-grid" id="arr-items">
+            <!-- Items will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <div id="fpl-container" class="category-container">
+        <div class="category-header">
+            <h3 class="category-title">FPL (Flight Plan) - Plan de vuelo</h3>
+            <span class="category-count">20 mensajes</span>
+        </div>
+        <div class="items-grid" id="fpl-items">
+            <!-- Items will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <div id="chg-container" class="category-container">
+        <div class="category-header">
+            <h3 class="category-title">CHG (Change) - Cambio</h3>
+            <span class="category-count">20 mensajes</span>
+        </div>
+        <div class="items-grid" id="chg-items">
+            <!-- Items will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <div id="cnl-container" class="category-container">
+        <div class="category-header">
+            <h3 class="category-title">CNL (Cancel) - Cancelación</h3>
+            <span class="category-count">19 mensajes</span>
+        </div>
+        <div class="items-grid" id="cnl-items">
+            <!-- Items will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <div id="dep-container" class="category-container">
+        <div class="category-header">
+            <h3 class="category-title">DEP (Departure) - Salida</h3>
+            <span class="category-count">25 mensajes</span>
+        </div>
+        <div class="items-grid" id="dep-items">
+            <!-- Items will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <div id="dla-container" class="category-container">
+        <div class="category-header">
+            <h3 class="category-title">DLA (Delay) - Retraso</h3>
+            <span class="category-count">22 mensajes</span>
+        </div>
+        <div class="items-grid" id="dla-items">
+            <!-- Items will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Message Display Area -->
+    <div class="message-display" id="message-display">
+        <div class="message-header">
+            <h3 class="message-title">Mensaje AFTN</h3>
+            <button class="close-btn" id="close-message">×</button>
+        </div>
+        <div class="message-content" id="message-content">
+            <!-- Message content will appear here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>Curso ATC-053 Telecomunicaciones - Laboratorio de Lectura de Mensajes AFTN</p>
+        <p>Total de mensajes disponibles: 124 | Instructora: Milagros Muñoz</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
