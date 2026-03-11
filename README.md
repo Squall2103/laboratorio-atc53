@@ -1,5 +1,7 @@
 # Laboratorio de Lectura de Mensajes AFTN - ATC-053
 
+[![Ver Demo en Vivo](https://img.shields.io/badge/DEMO-PÁGINA_EN_VIVO-brightgreen?style=for-the-badge&logo=github)](https://squall2103.github.io/laboratorio-atc53/)
+
 Este proyecto es una herramienta interactiva diseñada para facilitar las prácticas de radiotelecomunicaciones en el entorno aeronáutico. Fue desarrollado específicamente para apoyar el curso **ATC-053 Telecomunicaciones**, permitiendo que los estudiantes realicen laboratorios de lectura de mensajes de forma remota y organizada.
 
 ## ✈️ Contexto del Proyecto
@@ -21,9 +23,3 @@ El proyecto se encuentra publicado y funcional a través de GitHub Pages.
 
 ---
 **Desarrollado por Diego Mamani** *Estudiante de Lic. en Sistemas y Programación - UMECIT*
-
-# Laboratorio de Lectura de Mensajes AFTN - ATC-053
-
-[![Ver Demo en Vivo](https://img.shields.io/badge/DEMO-PÁGINA_EN_VIVO-brightgreen?style=for-the-badge&logo=github)](https://squall2103.github.io/laboratorio-atc53/)
-
----
