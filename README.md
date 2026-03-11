@@ -21,3 +21,9 @@ El proyecto se encuentra publicado y funcional a través de GitHub Pages.
 
 ---
 **Desarrollado por Diego Mamani** *Estudiante de Lic. en Sistemas y Programación - UMECIT*
+
+# Laboratorio de Lectura de Mensajes AFTN - ATC-053
+
+[![Ver Demo en Vivo](https://img.shields.io/badge/DEMO-PÁGINA_EN_VIVO-brightgreen?style=for-the-badge&logo=github)](https://squall2103.github.io/laboratorio-atc53/)
+
+---
